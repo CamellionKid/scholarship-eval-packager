@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scholarship Eval Packager"
+  short_description: "Calculate scholarship scores, generate formula-driven Excel & Word forms, and organize proof attachments"
+  default_prompt: "Use $scholarship-eval-packager to score my scholarship application against the official rules, fill the Word form, and generate a formula-driven Excel package with organized attachments."

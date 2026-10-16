@@ -1,0 +1,124 @@
+{
+  "base_dir": "/tmp/example_scholarship_output",
+  "excel_filename": "硕士研究生学业奖学金自评分表_张三_20240000001.xlsx",
+  "word_template": null,
+  "title": "马克思主义学院 2025—2026 学年硕士研究生学业奖学金自评自动核算表",
+  "form_title": "马克思主义学院 2025—2026 学年硕士研究生学业奖学金自评分表",
+  "applicant": {
+    "id": "20240000001",
+    "name": "张三",
+    "major": "2024级 哲学（伦理学）",
+    "department": "马克思主义学院",
+    "advisor": "李四",
+    "rule_doc": "《马克思主义学院研究生学业奖学金评审细则》（马院政〔2026〕12号）"
+  },
+  "copies": [],
+  "items": [
+    {
+      "no": 1,
+      "cat": "一、科研情况\n(55%)",
+      "col_key": "papers",
+      "col_name": "发表论文情况(自评分)",
+      "detail": "张三. 论文题目示例[N]. 地方日报, 2025-11-05(004).",
+      "rule": "第4页「论文 - 其他报纸」：在各省非核心报纸、各地市级报纸发表的理论文章，计5分/篇。",
+      "raw_score": 5,
+      "weight": 0.55,
+      "link_text": "01_发表论文证明.png",
+      "link_path": "附件_支撑材料/01_科研情况_55%/01_发表论文证明.png",
+      "note": "支持直接修改F列原始分自动重算"
+    },
+    {
+      "no": 2,
+      "cat": "一、科研情况\n(55%)",
+      "col_key": "awards",
+      "col_name": "获奖情况(自评分)\n[学术会议报告与获奖]",
+      "detail": "国家级学术会议发言1次（6分）；省级学术会议发言1次（3分）。",
+      "rule": "第6页「学术会议报告与获奖」：国家级6分/次，省级3分/次。",
+      "raw_score": 9,
+      "weight": 0.55,
+      "link_text": "02_学术会议手册与发言证明.pdf",
+      "link_path": "附件_支撑材料/01_科研情况_55%/02_学术会议手册与发言证明.pdf",
+      "note": "含会议议程表与录用通知"
+    },
+    {
+      "no": 3,
+      "cat": "一、科研情况\n(55%)",
+      "col_key": "projects",
+      "col_name": "主持项目(自评分)",
+      "detail": "无",
+      "rule": "第5页「项目」：研究生为项目主持人计分。",
+      "raw_score": 0,
+      "weight": 0.55,
+      "link_text": "无",
+      "link_path": null,
+      "note": "无"
+    },
+    {
+      "no": 4,
+      "cat": "二、非科研类获奖\n(10%)",
+      "col_key": "non_research",
+      "col_name": "非科研获奖（自评分）",
+      "detail": "无",
+      "rule": "第7-8页「三、非科研类获奖情况*10%」",
+      "raw_score": 0,
+      "weight": 0.10,
+      "link_text": "无",
+      "link_path": null,
+      "note": "无"
+    },
+    {
+      "no": 5,
+      "cat": "三、社会实践情况\n(5%)",
+      "col_key": "practice",
+      "col_name": "引领校风院风学风建设（自评分）",
+      "detail": "担任校研究生辩论队队员，考核良好（2分）。",
+      "rule": "第9页「1.服务集体」：校文体队队员良好计2分。",
+      "raw_score": 2,
+      "weight": 0.05,
+      "link_text": "01_任职证明.pdf",
+      "link_path": "附件_支撑材料/02_社会实践与校风学风建设_5%/01_任职证明.pdf",
+      "note": "附校研究生会盖章任职证明"
+    },
+    {
+      "no": 6,
+      "cat": "四、学业成绩\n(30%)",
+      "col_key": "grades",
+      "col_name": "课程成绩",
+      "detail": "引用 Sheet3『3_课程成绩明细表』算术平均分自动计算。",
+      "rule": "第6页「二、学业成绩*30%」：研究生期间所有课程平均分数*30%。",
+      "raw_score": "__COURSE_AVG__",
+      "weight": 0.30,
+      "link_text": "01_硕士研究生成绩单.pdf",
+      "link_path": "附件_支撑材料/03_学业成绩_30%/01_硕士研究生成绩单.pdf",
+      "note": "自动联动课程成绩表"
+    }
+  ],
+  "courses": [
+    {"no": 1, "code": "G1211001", "name": "新时代中国特色社会主义理论与实践研究", "credit": 2.0, "score": 85.0},
+    {"no": 2, "code": "X1211008", "name": "西方哲学史", "credit": 3.0, "score": 91.0}
+  ],
+  "word_columns": [
+    {"key": "id", "header": "学号", "width_cm": 2.2, "align": "center"},
+    {"key": "name", "header": "学生姓名", "width_cm": 1.6, "align": "center"},
+    {"key": "papers", "header": "发表论文情况(自评分)", "width_cm": 4.3, "align": "left"},
+    {"key": "awards", "header": "获奖情况(自评分)", "width_cm": 4.8, "align": "left"},
+    {"key": "projects", "header": "主持项目(自评分)", "width_cm": 1.8, "align": "center"},
+    {"key": "non_research", "header": "非科研获奖（自评分）", "width_cm": 1.8, "align": "center"},
+    {"key": "practice", "header": "引领校风院风学风建设（自评分）", "width_cm": 3.2, "align": "left"},
+    {"key": "grades", "header": "课程成绩", "width_cm": 3.3, "align": "left"},
+    {"key": "total", "header": "总分", "width_cm": 1.6, "align": "center"},
+    {"key": "sign", "header": "是否赞同签名", "width_cm": 1.6, "align": "center"}
+  ],
+  "word_row_texts": {
+    "id": "20240000001",
+    "name": "张三",
+    "papers": "1. 论文题目示例（5分）\n\n总计：5×0.55 = 2.75分",
+    "awards": "1. 国家级学术会议发言（6分）\n2. 省级学术会议发言（3分）\n\n总计：(6+3)×0.55 = 4.95分",
+    "projects": "无",
+    "non_research": "无",
+    "practice": "1. 校辩论队队员（良好，2分）\n\n总计：2×0.05 = 0.1分",
+    "grades": "85+91 = 176\n176÷2 = 88.000\n\n总计：88.000×0.3 = 26.4000分",
+    "total": "34.2000",
+    "sign": ""
+  }
+}
